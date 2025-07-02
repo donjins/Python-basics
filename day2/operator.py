@@ -19,3 +19,6 @@ print("After *= 2:", x)
 
 x -= 4
 print("After -= 4:", x)
+
+x //= 2
+print("After //= 2:", x)
