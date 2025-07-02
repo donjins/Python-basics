@@ -10,4 +10,8 @@ print(se)
 a = {1,2,3}
 b = {3,4,5}
 
-print(a|b) #union all elements 
+print(a|b) #union all elements without repeat
+print(a&b) #intrsection means common element
+print(a-b)
+print(a^b) #symetric - common remove add other print
+
