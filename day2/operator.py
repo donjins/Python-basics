@@ -22,3 +22,5 @@ print("After -= 4:", x)
 
 x //= 2
 print("After //= 2:", x)
+
+print("Equal:", a == b)
