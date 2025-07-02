@@ -24,3 +24,5 @@ x //= 2
 print("After //= 2:", x)
 
 print("Equal:", a == b)
+
+print("Not Equal:", a != b)
