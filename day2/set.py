@@ -15,3 +15,6 @@ print(a&b) #intrsection means common element
 print(a-b)
 print(a^b) #symetric - common remove add other print
 
+a = {1, 2}
+b = {1, 2, 3, 4}
+print(a.issubset(b))
