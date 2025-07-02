@@ -8,3 +8,7 @@ print("Division:", a / b)
 print("Floor Division:", a // b)
 print("Modulus:", a % b)
 print("Exponent:", a ** b)
+
+x = 5
+x += 3
+print("After += 3:", x)
