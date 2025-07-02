@@ -31,3 +31,10 @@ print(uniq)
 
 fs = frozenset([1, 2, 2, 3])
 print(fs)  # frozenset({1, 2, 3})
+
+combo = {
+    frozenset(["apple", "banana"]): "fruit combo",
+    frozenset(["carrot", "beet"]): "veggie combo"
+}
+
+print(combo[frozenset(["banana", "apple"])])  # fruit combo
