@@ -24,3 +24,7 @@ print(a.isdisjoint({5, 6}))
 colors = {"red", "blue", "green"}
 for color in colors:
     print(color)
+
+num = [1,2,3,4,3,4,5]
+uniq= list(set(num))
+print(uniq)
