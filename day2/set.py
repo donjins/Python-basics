@@ -28,3 +28,6 @@ for color in colors:
 num = [1,2,3,4,3,4,5]
 uniq= list(set(num))
 print(uniq)
+
+fs = frozenset([1, 2, 2, 3])
+print(fs)  # frozenset({1, 2, 3})
