@@ -38,3 +38,5 @@ combo = {
 }
 
 print(combo[frozenset(["banana", "apple"])])  # fruit combo
+fs = frozenset([1, 2, 3, 1, 2])
+print(len(fs))
