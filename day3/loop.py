@@ -5,3 +5,7 @@ for color in colors:
 word = "hello"
 for letter in word:
     print(letter)
+
+person = {"name": "John", "age": 25}
+for key, value in person.items():
+    print(key, value)
