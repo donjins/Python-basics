@@ -8,3 +8,9 @@ def add(a, b):
 
 result =add(2 ,3)
 print(result)
+
+def ron(name="Greet"):
+  print("hello",name)
+
+ron()
+ron("don")
