@@ -1,4 +1,4 @@
-def greet():
-  print("heyy this a function")
+def greet(name):
+  print(f"heyy {name} \t this a function")
 
-greet()
+greet("john")
