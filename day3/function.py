@@ -14,3 +14,12 @@ def ron(name="Greet"):
 
 ron()
 ron("don")
+
+def student(names , age):
+  print(f"My name is {names},i am {age}")
+
+student(age = 22, names = "Don")
+
+def add_numbers(*args):
+  print(sum(args))
+  
