@@ -1,4 +1,4 @@
-def greet(name, age):
+def geet(name, age):
   print(f"my name is {name},i am {age}")
 
 greet(age=22 , name="don")
