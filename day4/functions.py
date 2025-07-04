@@ -21,3 +21,14 @@ def factorial(n):
    return n * factorial( n - 1)
 
 print(factorial(5))
+
+#recursion
+
+def countozero(n):
+   if n == 0:
+      print("Done")
+   else:
+      print(n)
+      countozero(n-1)
+
+countozero(5)
