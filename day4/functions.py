@@ -4,7 +4,7 @@ def greet(name, age):
 greet(age=22 , name="don")
 
 def addnumber(*args):
-  return sum(args)
+  return sum(ars)
 
 
 print(addnumber(2,3,5))
