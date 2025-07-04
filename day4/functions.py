@@ -39,3 +39,12 @@ def factorials(m):
    else:
       return m * factorials(m - 1)
 factorials(5)
+
+def sum(o):
+  if o == 1:
+     return 1
+  else:
+     return o + sum( o - 1 )
+print(sum(5))
+
+
