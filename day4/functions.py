@@ -32,3 +32,10 @@ def countozero(n):
       countozero(n-1)
 
 countozero(5)
+
+def factorials(m):
+   if m == 1:
+      return 1
+   else:
+      return m * factorials(m - 1)
+factorials(5)
