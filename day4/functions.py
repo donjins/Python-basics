@@ -1,7 +1,7 @@
 def greet(name, age):
   print(f"my name is {name},i am {age}")
 
-gret(age=22 , name="don")
+greet(age=22 , name="don")
 
 def addnumber(*args):
   return sum(args)
