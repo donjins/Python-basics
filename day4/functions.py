@@ -3,7 +3,7 @@ def greet(name, age):
 
 greet(age=22 , name="don")
 
-def addnumber(*args):
+def addnuber(*args):
   return sum(args)
 
 
