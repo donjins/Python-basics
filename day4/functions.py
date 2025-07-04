@@ -48,3 +48,9 @@ def sum(o):
 print(sum(5))
 
 
+def printnum(p):
+   if p == 0:
+      return
+   printnum(p - 1)
+   print(p, end='')
+printnum(10)
