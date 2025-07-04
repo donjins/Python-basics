@@ -54,3 +54,17 @@ def printnum(p):
    printnum(p - 1)
    print(p, end='')
 printnum(10)
+
+def power(x , y):
+   if y == 0:
+      return 1
+   return x * power(x , y -1)
+print(power(2,3))
+
+def reverse(s):
+    if s == "":
+        return ""
+    return reverse(s[1:]) + s[0]
+
+print(reverse("hello"))
+
