@@ -8,3 +8,11 @@ def addnumber(*args):
 
 
 print(addnumber(2,3,5))
+
+
+def show_info(**kwargs):
+    print(kwargs)
+
+show_info(name="john", age=25)
+
+\
