@@ -15,4 +15,9 @@ def show_info(**kwargs):
 
 show_info(name="john", age=25)
 
-\
+def factorial(n):
+   if n == 1:
+      return 1
+   return n * factorial( n - 1)
+
+print(factorial(5))
