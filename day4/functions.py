@@ -7,7 +7,7 @@ def addnumber(*args):
   return sum(args)
 
 
-print(addnumber(23,5))
+print(addnumber(2,3,5))
 
 
 def show_info(**kwargs):
